@@ -1,2 +1,2 @@
 # RelBot
-A hack-eyed bot for Discord dedicated to relationahip charts.
+Source code for a hack-eyed bot for Discord dedicated to relationship charts.
