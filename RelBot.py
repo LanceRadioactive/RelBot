@@ -27,7 +27,7 @@ from functools import partial
 #from concurrent.futures import ThreadPoolExecutor
 
 client = commands.Bot(command_prefix = '!')
-token = "NTM4NDE3NTQ3MTA4OTQxODQ0.DzSGHA.BiYt6jlHqR3GKlcVf6vge3QI6v0"
+token = "InsertTokenHere"
 gscope = ['https://spreadsheets.google.com/feeds', 'https://www.googleapis.com/auth/drive']
 gcreds = ServiceAccountCredentials.from_json_keyfile_name('relbot_secrets.json', gscope)
 gclient = gspread.Client(auth=gcreds)
