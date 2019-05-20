@@ -1346,10 +1346,6 @@ embedict = {
     ),
     'rename' : ("!rename ['chart'/'key'/'person'] [chart name] [target deadname/chart newname] {target name v2.0}", "This command will rename a given entry, be it a person, key, or the whole chart, depending on the mode specified.\nIf this is use to rename a chart, only two arguments need to follow - the old chart name, followed by the new one. Otherwise, three arguments are required - the target chart name, the old name of the target within it, and the new name to change it to.\nThe entry is renamed alongside all its mentions in the relationships - people that have a link to the renamed person will have that link retargeted, and all relationships that bear a renamed key will also be renamed.",
             ("Use examples:", "`!rename chart my_chart \"My Chart\"`\n`!rename key my_chart Love Hate`\n`!rename person my_chart Lance Lnace`")
-    ),
-    'extension': ("RelBot Emitter - additional utility extension", "For your ease and for increased integration, there is now a Google Sheets Add-on avaliable for use!\nThe RelBot Emitter is a small utility that can allow you to call RelBot to updte a chart without changing tabs or running any commands. Just install the add-on, and enable it through Add-On Settings in the Add-On menu - then (possibly, after a reboot of the page) you will see an option to \"Update this chart\" under the 'RelBot' dropdown.\nThe add-on will only be active on charts created and secured by RelBot - it will not interfere or do anything under any other line of work.",
-            ("You may find the Emitter here:", "https://chrome.google.com/webstore/detail/relbot-emitter/dpjcaahebklppjdlibcddkpnoamidggh"),
-            ("...or, you know...", "...you could just run '!retrieve'. /shrug")
     )
 
 }
